@@ -17,13 +17,10 @@ body {
 }
 img {
   display: block;
-/*   max-width: 100%; */
-/*   min-height: 50vmin; */
   width: 100%;
   height: auto;
   margin: auto;
   border: solid 1px #000;
-/*   flex: 1.4059; */
 }
 #img-caption {
   margin-top: 10px;
