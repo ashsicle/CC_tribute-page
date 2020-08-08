@@ -1,0 +1,27 @@
+#main {
+  margin: 30px 10px;
+  display: block;
+  text-align: center;
+}
+#img-div {
+  padding: 10px;
+  display: block;
+  margin: auto;
+  width: 90vw;
+  background: #eee;
+  margin-bottom: 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  min-height: 50vmin;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  clear: both;
+  border: solid 1px #000;
+}
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+}
