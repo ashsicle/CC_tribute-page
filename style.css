@@ -1,27 +1,46 @@
+body {
+  font-family: "Lora";
+  text-align: center;
+  background: #ddd;
+}
 #main {
   margin: 30px 10px;
   display: block;
-  text-align: center;
 }
 #img-div {
-  padding: 10px;
+  padding: 20px;
   display: block;
   margin: auto;
   width: 90vw;
-  background: #eee;
+  background: #bbb;
   margin-bottom: 20px;
 }
 img {
   display: block;
-  max-width: 100%;
-  min-height: 50vmin;
+/*   max-width: 100%; */
+/*   min-height: 50vmin; */
   width: 100%;
   height: auto;
   margin: auto;
-  clear: both;
   border: solid 1px #000;
+/*   flex: 1.4059; */
 }
 #img-caption {
   margin-top: 10px;
   font-style: italic;
+}
+#article {
+  text-align: left;
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #666;
+  text-decoration: underline;
 }
