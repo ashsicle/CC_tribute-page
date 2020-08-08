@@ -12,22 +12,23 @@ body {
   display: block;
   margin: auto;
   width: 90vw;
+  height: auto;
+  max-height: 100vmin;
   background: #bbb;
   margin-bottom: 20px;
 }
 img {
   display: block;
+  max-width: 100%;
   width: 100%;
   height: auto;
-  max-height: 100vmin;
   margin: auto;
-  border: solid 1px #000;
 }
 #img-caption {
   margin-top: 10px;
   font-style: italic;
 }
-#article {
+#tribute-info {
   text-align: left;
   width: 80vw;
   max-width: 800px;
