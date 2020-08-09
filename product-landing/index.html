@@ -1,30 +1,58 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
 <DOCTYPE! html>
   <html>
     <head>
       <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Jost">
+      <link rel="stylesheet" href="./style.css" type="text/css">
     </head>
     <body>
       <header id="header">
-        <h1>playLab.City</h1>
-        <img id="header-img" src="">
+        <img id="header-img" src="./playLab.png" alt="playLab">
         <nav id="nav-bar">
-          <div class="nav-item"><a class="nav-link" href="#about">about</a></div>
-          <div class="nav-item"><a class="nav-link" href="#demo">demo</a></div>
-          <div class="nav-item"><a class="nav-link" href="#contact">contact</a></div>
+          <div class="nav-item"><a class="nav-link" href="#about">About</a></div>
+          <div class="nav-item"><a class="nav-link" href="#demo">Demo</a></div>
+          <div class="nav-item"><a class="nav-link" href="#contact">Contact</a></div>
         </nav>
       </header>
       <main>
-        <section id="demo">
-          <div id="iframe"><iframe id="video" src="" frameborder="0" allowfullscreen>
-            </div>
+        <section id="about" class="flex-row">
+          <div class="flex-left">
+            <img src="./cybernetics" alt="Cybernetics of Playlab">
+          </div>
+          <div class="flex-right">
+            <h2>About</h2>
+            <p>In order for public engagement to be more meaningful to urban designers, participatory methods using agent-based simulations can allow stakeholders to intuitively play within design constraints. playLab.City provides a platform, situated between urban design participation and agent based simulation, where stakeholders have a greater opportunity to exercise their right to the city.</p>
+          </div>
         </section>
-        <section id="contact">
+        <section id="demo">
+          <h2>Demo</h2>
+          <div>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/bM3_WRO1vo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <hr>
+        </section>
+        <section id="contact" class="flex-row">
+          <div class="flex-left">
+            <h2>Contact</h2>
+            <p>Get in touch! We'd love to hear your thoughts on how to improve this participatory platform</p>
+          </div>
+          <div class="flex-right">
           <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <h2>Get in touch</h2>
             <input name="email" id="email" type="email" placeholder="email@domain.com" required>
             <input id="submit" type="submit" value="Submit">
           </form>
+          </div>
         </section>
       </main>
     </body>
