@@ -14,6 +14,8 @@ body {
 }
 #header-img {
   margin-left: 20px;
+  height: 50px;
+  width: auto;
 }
 h2 {
   display: inline;
@@ -93,6 +95,10 @@ hr {
 .flex-right {
   width: 50%;
   margin-left: 20px;
+}
+.flex-img {
+  width: 100%;
+  height: auto;
 }
 @media (max-width:800px) {
    main {
