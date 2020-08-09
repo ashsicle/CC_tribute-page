@@ -1,0 +1,79 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  </head>
+<body>
+  <h1 id="title">Mini 2020 Census</h1>
+  <div id="header">
+    <h2>Shape your future here!</h2>
+    <p id="description">It's safe, secure, and confidential. Your information and privacy are protected.</p>
+  </div>
+  <main id="form">
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="Full Name" class="input-text" required>
+      </div>
+      <div class="form-group">
+        <label id="email-label">Email</label><br>
+        <input type="email" id="email" placeholder="Email Address" class="input-text" required>
+      </div>
+      <div class="form-group">
+        <label id="number-label">Household Size</label><br>
+        <input type="number" id="number" placeholder="Number of residents in your household" min="1" max="20" class="input-number" required>
+      </div>
+      <div class="form-group">
+        <p>Gender:</p>
+        <label>
+        <input name="gender" value="male" type="radio" class="input-radio">Male</label><br>
+        <input name="gender" value="female" type="radio" class="input-radio">Female</label><br>
+      <input name="gender" value="unspecified" type="radio" class="input-radio" checked>Prefer not to specify</label>
+      </div>
+      <div class="form-group">
+        <p>Current Employment Status</p>
+        <select id="dropdown" name="employment" class="input-dropdown">
+          <option disabled selected value>Select current occupation</option>
+          <option value="student">Student</option>
+          <option value="full-time">Full-Time Job</option>
+          <option value="part-time">Part-Time Job</option>
+          <option value="other">Other</option>
+          <option value="unspecified">Prefer not to specify</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>Race (select all that apply)</p> 
+        <label>
+          <input name="race" value="American Indian" type="checkbox" class="input-checkbox">American Indian
+        </label><br>
+        <label>
+          <input name="race" value="Asian" type="checkbox" class="input-checkbox">Asian
+        </label><br>
+        <label>
+          <input name="race" value="Black" type="checkbox" class="input-checkbox">Black
+        </label><br>
+        <label>
+          <input name="race" value="Latin" type="checkbox" class="input-checkbox">Latin
+        </label><br>
+        <label>
+          <input name="race" value="White" type="checkbox" class="input-checkbox">White
+        </label><br>
+        <label>
+          <input name="race" value="Other" type="checkbox" class="input-checkbox">Other
+        </label><br>
+        <label>
+          <input name="race" value="Unspecified" type="checkbox" class="input-checkbox">Prefer not to specify
+        </label>
+      </div>
+      <div class="form-group">
+        <p> Additional comments</p>
+        <textarea id="comments" name="comment" class="input-textarea" placeholder="Enter comments here..."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="button-submit">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
