@@ -1,0 +1,157 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+      <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+      <nav id="navbar">
+        <header>NYC POPS History</header>
+        <ul>
+          <li><a class="nav-link" href="#nyc-pops">History of New York City's Privately Owned Public Spaces</a></li>
+          <li><a class="nav-link" href="#inauguration">1961: Inauguration of the Program</a></li>
+          <li><a class="nav-link" href="#space-type">1968-1975: New types of spaces</a></li>
+          <li><a class="nav-link" href="#plaza-improvements">1975-1977: Major improvements to plaza standards</a></li>
+          <li><a class="nav-link" href="#incremental-changes">1980-1990: Incremental changes</a></li>
+          <li><a class="nav-link" href="#data-collection">2000: Data collection and book publication</a></li>
+          <li><a class="nav-link" href="#new-era">2007-2009: Ushering in a new era of plazas</a></li>
+        </ul>
+      </nav>
+      <main id="main-doc">
+        <section id="nyc-pops" class="main-section">
+          <header>
+            <h1>History of New York City's Privately Owned Public Spaces</h1>
+          </header>
+          <article>
+            <p>This page recalls the history of POPS in New York City, dating back to 1961, and detailed evolution of these spaces. Important milestones and phases include the following. Please read on to learn more!</p>
+            <ul>
+              <li>1961: Inauguration of the Program</li>
+              <li>1968-1975: New types of spaces</li>
+              <li>1975-1977: Major improvements to plaza standards</li>
+              <li>1980-1990: Incremental changes</li>
+              <li>2000: Data collection and book publication</li>
+              <li>2007-2009: Ushering in a new era of plazas</li>
+             </ul>
+          </article>
+        </section>
+        <section id="inauguration" class="main-section">
+          <header>
+            <h2>1961: Inauguration of the Program</h2>
+          </header>
+          <article>
+            <p>The 1961 Zoning Resolution inaugurated the POPS Program in New York City. It encouraged private developers to provide publicly accessible spaces, specifically plazas and arcades, on private property in exchange for bonus floor area in certain high-density districts. It was one of the earliest forms of “incentive zoning.” Inspired by developments such as the Seagram Building in Midtown Manhattan, the intent was to bring light, air, and more usable open space to our city streets, at a time when many bulky buildings and skyscrapers were being constructed.</p>
+            <code>
+              var pops = ["plaza", "arcade"]
+            </code>
+            <p>The Zoning Resolution prescribed modest dimensional and design requirements for these spaces, and required them to be accessible at all times. The original standards did not require any amenities we expect in public spaces today, such as seating, lighting, and trees, and rather only permitted elements such as flagpoles, driveways, and garage entrances . The standards also set a maximum bonus cap of 20 percent of the maximum permitted floor area for any lot. The bonuses were “as-of-right”, meaning that developers only needed to demonstrate compliance with the zoning requirements and floor area computations at the Department of Buildings and did not need to seek Department of City Planning review.</p>
+            <code>
+              if (footprint = bldg + popsPlaza) {
+                var maxFAR = 1.2*FAR;
+              }
+              else {
+                var maxFAR = FAR;
+              }
+            </code>
+            <p>The bonus was an immensely popular incentive for developers; it was fairly low cost and created additional space and value to a building. By 1996, when the regulation standards were updated, 167 plazas and 87 arcades had been built. Among these are many of the large open spaces pedestrians encounter today in Midtown Manhattan and the Financial District. This plaza bonus remained in effect until 1996.</p>
+          </article>
+        </section>
+        <section id="space-type" class="main-section">
+          <header>
+            <h2>1968-1975: New types of spaces</h2>
+          </header>
+          <article>
+            <p>Because the plaza bonus had proven to be a powerful incentive, the City, in 1968, began adopting additional types of bonus-generating public spaces into the Zoning Resolution. Each of these had its own set of standards and bonus ratios and required review by the City Planning Commission. These included elevated and sunken plazas, through block arcades; covered pedestrian spaces; and open-air concourses.</p>
+            <code>
+              var pops = ["elevated plaza", "sunken plaza", "through block arcade", "covered pedestrian spaces", "open-air concourse"]
+            </code>
+            <p>Additional POPS were built as required by various special purpose zoning districts, as part of a big-picture urban design vision for a certain area of the city.</p>
+            <p>Further, some POPS were built by building owners in exchange for waivers from existing zoning rules from either the City Planning Commission or Board of Standards and Appeals. These waivers typically were to allow for floor area greater than the base amount, or for modifications to height, bulk, or setback rules.</p>
+          </article>
+        </section>
+        <section id="plaza-improvements" class="main-section">
+          <header>
+            <h2>1975-1977: Major improvements to plaza standards</h2>
+          </header>
+          <article>
+            <p>Over time, it became apparent that there was a need to improve plaza standards. Plazas built under the 1961 standards brought light and air to the street level as intended, but a vast majority did not provide usable public open space. That was because the standards did not require seating, lighting, or trees, and rather only permitted elements like flagpoles, driveways, and garage entrances . The result: underused open spaces.</p>
+            <code>
+              var plaza = ["open air concourse", "sidewalk widening", "urban plaza"]
+            </code>
+            <p>In 1975, with the benefit of hindsight and encouraged by research studies produced by William H. Whyte, the Department adopted the “Urban Open Space” amendment in 1975, which significantly improved the designs and usability of plazas. It established three categories of spaces: open air concourse, sidewalk widening, and the urban plaza. Similar to that of the 1961 plazas, providing these spaces generated bonuses in high density office districts. However, the bonuses were no longer allowed as-of-right, and instead, pursuant to a certification by the Chairperson of Department of City Planning Chairperson to the Department of Buildings. This ensured that spaces met the newly established design standards.</p>
+            <p>Learning from the lack of usability of 1961 as-of-right plazas, the design standards for urban plazas required owners to provide amenities typically found in public parks, such as seating, planting, trees, lighting, Americans with Disabilities Act (ADA) access, and signage. It also required the plaza to be substantially open to the sidewalk; to be more or less at the level of the adjacent sidewalk; and for the owner to post a performance bond to ensure proper maintenance. Open air cafes and kiosks were introduced, while uninviting elements such as driveways and exhaust vents were prohibited.</p>
+            <code>
+              if (plaza.hasOwnProperty["seating", "planting", "trees", "lighting", "ADA access", "signage"]) {
+                plaza = pops;
+              }
+              else {
+                plaza != pops;
+              }
+            </code>
+            <p>Forty urban plazas were built under these regulations, which remained in effect until replaced by the public plaza design standards in 2007.</p>
+            <p>In 1977, these urban plaza standards were adapted for high-density residential districts, establishing yet another type of POPS: the residential plaza. The bonuses generated by residential plazas was similar to the 1961 plazas, in ratios and that they were first allowed as-of-right. However, beginning in 1996, they required a certification by the Chairperson of the City Planning Commission to the Department of Buildings, to ensure that the design standards have been met. Sixty-two residential plazas were constructed under these regulations, which remained in effect until replaced by the public plaza design standards in 2007.</p>
+          </article>
+        </section>
+        <section id="incremental-changes" class="main-section">
+          <header>
+            <h2>1980-1990: Incremental changes</h2>
+          </header>
+          <article>
+            <p>Incremental changes to POPS regulations took place through the 1980s and 1990s, related to special districts, particularly Special Midtown District, and with the eventual elimination of some POPS categories.</p>
+            <p>By the late 1990s, an impressive amount of public space had been created in many busy areas of the City that had little open space. However, it was clear that the lack of detailed requirements for amenities in the older POPS zoning regulations meant that these spaces were significantly underutilized, and in some case were not easily accessible and even perceived as public. For those reasons, the types of POPS permitted and their locations were restricted in the late 1990s. Most notably, the bonus for as-of-right plazas was eliminated in 1996.</p>
+          </article>
+        </section>
+        <section id="data-collection" class="main-section">
+          <header>
+            <h2>2000: Data collection and book publication</h2>
+          </header>
+          <article>
+            <p>Starting in the late 1990s, Harvard professor Jerold S. Kayden, the Department of City Planning, and the Municipal Art Society (MAS) joined forces to conduct a comprehensive analysis of New York City POPS and jointly developed an electronic database with detailed information about each POPS.  Based on this work and published in 2000, "Privately Owned Public Space: The New York City Experience," describes the evolution of incentive zoning in New York City from 1961-2000, and profiles 503 public spaces at 320 buildings that had been granted additional floor area or related waivers in exchange for providing these spaces. A qualitative analysis of these spaces found that some POPS were well used, serving as destinations or neighborhood gathering spaces, while others were primarily for circulation purposes or of minimal usability.</p>
+            <p>This initial POPS database served as the basis for the Department’s current database, on which it maintains all POPS data, and which is critical to the Department meeting its obligations to report on the data and make it publicly available. The Department would like to give special thanks to Jerold Kayden and MAS for their financial support and ongoing contributions to the collection and dissemination of information about POPS, and for their advocacy work, overall.</p>
+          </article>
+        </section>
+         <section id="new-era" class="main-section">
+          <header>
+            <h2>2007-2009: Ushering in a new era of plazas</h2>
+          </header>
+          <article>
+            <p>This initial POPS database served as the basis for the Department’s current database, on which it maintains all POPS data, and which is critical to the Department meeting its obligations to report on the data and make it publicly available. The Department would like to give special thanks to Jerold Kayden and MAS for their financial support and ongoing contributions to the collection and dissemination of information about POPS, and for their advocacy work, overall.</p>
+            <p>With all this insight, new design standards (called “public plaza” standards) were proposed by the Department and adopted by the City Council in 2007. The 2007 provisions overhauled the design regulations of prior plazas to facilitate the design and construction of high quality public spaces that, in turn, provide valuable amenities to residential neighborhoods and commercial districts. They are guided by the following design principles:</p>
+            <p>Public Plaza Design Principles</p>
+            <ul>
+              <li>Open and inviting at the sidewalk
+                <ul>
+                  <li>Easily seen and understood as open to the public</li>
+                  <li>Conveys openness and maintains clear sightlines through low design elements and generous paths leading into the plaza</li>
+                  <li>Provides seating and amenities adjacent to the public sidewalk</li>
+                </ul>
+              </li>
+              <li>Accessible
+                <ul>
+                  <li>Located at the same elevation as the sidewalk</li>
+                  <li>Enhances pedestrian circulation</li>
+                </ul>
+              </li>
+              <li>Safe and secure
+                <ul>
+                  <li>Contains easily accessible paths for ingress and egress</li>
+                  <li>Oriented and visually connected to the street</li>
+                  <li>Lit well within plaza and on sidewalks connecting to plaza</li>
+                </ul>
+              </li>
+              <li>Comfortable and engaging
+                <ul>
+                  <li>Promotes use and comfort by providing essential amenities</li>
+                  <li>Accommodates both small groups and individuals with a variety of well-designed, comfortable seating</li>
+                  <li>Balances open areas with greenery and trees</li>
+                </ul>
+              </li>
+            </ul>
+            <p>Learn about specific components of our design standards by referring to Zoning Resolution Section 37-70, or by seeing the “Current Standards”.</p>
+            <p>Importantly, the 2007 update introduced a process for owners to voluntarily redesign or modify their existing plaza. The public plaza standards are applied to all prior types of plazas when they come to the Department to seek a redesign. This ensures that plazas of prior standards are upgraded to a higher quality, in line with our current standards.</p>
+            <p>In 2009, the Department proposed and the City Council adopted a follow-up text amendment that further fine-tuned particular standards from 2007, particularly related to enhancing pedestrian circulation and visibility into and across a plaza.</p>
+            <p>Our current standards, when applied to older plazas that are upgraded or to new spaces, have resulted in highly attractive and usable spaces for New Yorkers, commuters, and visitors all to enjoy, providing greenery and an inviting place to sit, relax, people watch, eat, meet others – in other words, to partake and enjoy in urban life in one the world’s great cities.</p>
+          </article>
+        </section>
+      </main> 
+    </body>
+  </html>
