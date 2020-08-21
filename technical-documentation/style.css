@@ -53,6 +53,10 @@ code {
   padding: 10px;
   margin: 0px 40px;
 }
+#last-section {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
 @media screen and (min-width:800px) {
   #navbar {
     display: block;
