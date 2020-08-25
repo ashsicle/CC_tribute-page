@@ -53,7 +53,7 @@ h1 {
   height: auto;
   min-height:100vh;
 }
-#project-grid {
+.project-grid {
   display: block;
   margin: 10% auto;
   width: 80%;
