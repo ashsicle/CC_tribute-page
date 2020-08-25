@@ -1,5 +1,6 @@
 # freeCodeCamp
 ## Responsive Web Design
+[Certificate for Responsive Web Design](https://www.freecodecamp.org/certification/ashleylouie/responsive-web-design) via freeCodeCamp
 - Basic HTML and HTML5
 - Basic CSS
 - Applied Visual Design
