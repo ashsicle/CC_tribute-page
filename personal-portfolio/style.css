@@ -48,10 +48,12 @@ h1 {
   letter-spacing: 0.5px;
 }
 #projects {
+  position: relative;
   text-align: center;
   margin-bottom: 20px;
   height: auto;
   min-height:100vh;
+  overflow: hidden;
 }
 .project-grid {
   display: block;
